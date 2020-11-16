@@ -1,3 +1,5 @@
+Suggest Viewing in Raw Mode
+
 About Discord-Bots:
 I am starting this repo by creating a Discord bot that will upload history memes
 to a Discord every day, and this folder contains all of the bots that I have worked on.
