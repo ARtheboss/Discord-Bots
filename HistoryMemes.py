@@ -30,13 +30,13 @@ reddit = praw.Reddit(client_id=id, client_secret=secret, user_agent=agent)
 
 @client.event
 async def on_ready():
-    print(f"Getting Channel\n")
+    #print(f"Getting Channel\n")
     channel = client.get_channel(channelid)
-    print(f"Got Channel\n")
+    #print(f"Got Channel\n")
     find_meme()
-    print(f"Meme Located\n")
+    #print(f"Meme Located\n")
     await channel.send(file=discord.File('meme.jpg'))
-    print(f"Sent meme to chat")
+    #print(f"Sent meme to chat")
     
 def upload_image(imgurl):
     with open('meme.jpg', 'wb') as handle:
