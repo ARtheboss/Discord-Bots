@@ -15,9 +15,9 @@
   },
 
   "dependencies": {
-    requests
-    discord
-    praw>=7.0.0
+    requests = 2.24.0
+    discord = 1.5.1
+    praw = 7.0.0
   }
 
 }
