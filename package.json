@@ -1,0 +1,23 @@
+{
+
+  "name": "HistoryMemeBot",
+
+  "description": "README.md",
+
+  "version": "1.0.1",
+
+  "main": "HistoryMemes.py",
+
+  "scripts": {
+
+    "start": "node HistoryMemes.py"
+
+  },
+
+  "dependencies": {
+    requests
+    discord
+    praw>=7.0.0
+  }
+
+}
