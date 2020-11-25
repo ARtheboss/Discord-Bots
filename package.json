@@ -10,7 +10,7 @@
 
   "scripts": {
 
-    "start": "node HistoryMemes.py"
+    "start": "python HistoryMemes.py"
 
   },
 
