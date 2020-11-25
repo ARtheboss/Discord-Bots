@@ -1,1 +1,1 @@
-worker: node HistoryMemes.py
+worker: python HistoryMemes.py
